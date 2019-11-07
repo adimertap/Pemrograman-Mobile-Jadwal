@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard2Activity"
+    android:background="@color/white"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rel5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/rel4"
+                android:layout_marginTop="-70dp"
+                android:paddingBottom="16dp"
+                android:background="@drawable/part4_background"/>
+
+
+            <RelativeLayout
+                android:id="@+id/rel4"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:layout_below="@+id/rel3"
+                android:layout_marginTop="-120dp"
+                android:background="@drawable/part3_background">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="70dp"
+                    android:scrollbarSize="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="40dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/avatar02">
+                            </com.makeramen.roundedimageview.RoundedImageView>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="40dp"
+                                    android:fontFamily="@font/mmedium"
+                                    android:text="MADE"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
+                                <LinearLayout
+                                    android:layout_marginStart="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="4.2"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/white"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginStart="20dp"
+                                        android:fontFamily="@font/mreguler"
+                                        android:textStyle="bold">
+                                    </TextView>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/star" />
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="40dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="4dp"
+                                android:src="@drawable/avatar03"></com.makeramen.roundedimageview.RoundedImageView>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="40dp"
+                                    android:fontFamily="@font/mmedium"
+                                    android:text="PUTU"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
+                                <LinearLayout
+                                    android:layout_marginStart="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="4.0"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/white"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginStart="20dp"
+                                        android:fontFamily="@font/mreguler"
+                                        android:textStyle="bold">
+                                    </TextView>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/star" />
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="40dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/avatar04">
+                            </com.makeramen.roundedimageview.RoundedImageView>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="40dp"
+                                    android:fontFamily="@font/mmedium"
+                                    android:text="PUTRI"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
+                                <LinearLayout
+                                    android:layout_marginStart="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="3.9"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/white"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginStart="20dp"
+                                        android:fontFamily="@font/mreguler"
+                                        android:textStyle="bold">
+                                    </TextView>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/star" />
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="130dp"
+                            android:layout_height="120dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="40dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_alignParentBottom="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/avatar05">
+                            </com.makeramen.roundedimageview.RoundedImageView>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="40dp"
+                                    android:fontFamily="@font/mmedium"
+                                    android:text="KETUT"
+                                    android:textColor="@color/white"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"/>
+                                <LinearLayout
+                                    android:layout_marginStart="20dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="4.9"
+                                        android:textSize="14dp"
+                                        android:textColor="@color/white"
+                                        android:layout_gravity="center_vertical"
+                                        android:layout_marginStart="20dp"
+                                        android:fontFamily="@font/mreguler"
+                                        android:textStyle="bold">
+                                    </TextView>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@drawable/star" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel3"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/part2_background">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="70dp">
+
+                    <RelativeLayout
+                        android:id="@+id/rel3_rel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginEnd="35dp">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/avatar01"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/avatar01"
+                            app:riv_corner_radius="50dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@id/avatar01"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:fontFamily="@font/mmedium"
+                                android:text="Mr. Made Adi Merta"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:fontFamily="@font/mlight"
+                                android:text="Lawyer Family"
+                                android:textSize="15dp" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_alignParentEnd="true"
+                            android:padding="7dp"
+                            android:src="@drawable/expandbutton"></ImageView>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/rel3_rel1"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="40dp"
+                        android:fontFamily="@font/mlight"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="Segala masalah pidana anda akan terselesaikan dengan tuntas"
+                        android:textSize="14dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="150dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="@font/mmedium"
+                            android:text="421"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="2dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/comment2">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="10dp"
+                            android:fontFamily="@font/mmedium"
+                            android:text="1028"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/love2"></ImageView>
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rel1"
+                android:layout_marginTop="-1.5dp"
+                android:layout_marginEnd="-1.5dp"
+                android:background="@drawable/part1_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="70dp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="CariDEV Dashboard"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/white">
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/backbutton" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:padding="10dp"
+                    android:src="@drawable/searchbutton"></ImageView>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

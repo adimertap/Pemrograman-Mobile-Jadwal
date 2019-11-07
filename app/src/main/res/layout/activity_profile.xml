@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    tools:context=".profile.ProfileActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/person2" />
+
+    <TextView
+        android:id="@+id/Halo3"
+        android:layout_width="324dp"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Hallo"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="312dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="PROFILE LENGKAP ANDA"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namadata"
+            android:layout_width="350dp"
+            android:layout_height="25dp"
+            android:drawablePadding="20dp"
+            android:hint="NAMA"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/emaildata"
+            android:layout_width="350dp"
+            android:layout_height="25dp"
+            android:drawablePadding="20dp"
+            android:hint="EMAIL"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/lengkapidata"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonstylekecil"
+            android:drawableRight="@drawable/vectorsend"
+            android:text="Lengkapi Data"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/lihatdata"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonstylekecil"
+            android:drawableRight="@drawable/vectorsend"
+            android:text="Lihat Data"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/buttonkeluar"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstylekecil5"
+            android:text="KELUAR"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/atas"
+    android:background="@color/yellow"
+    tools:context=".loginregister.RegisterFragment">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/white">
+        <TextView
+            android:layout_marginTop="7dp"
+            android:id="@+id/logintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/mreguler"
+            android:text="WELCOME"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:src="@drawable/arrowleft"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:layout_marginStart="16dp"
+            />
+        <ImageView
+            android:src="@drawable/arrowright"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:layout_marginEnd="16dp">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rel1"
+        android:id="@+id/atas"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/part4_backgroundwhite"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+
+            android:layout_below="@+id/logintext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:src="@drawable/logosearch" />
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:id="@+id/fill"
+            android:layout_below="@+id/atas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvregister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/mreguler"
+                android:textStyle="bold"
+                android:text="REGISTER"
+                android:textSize="25sp" />
+
+
+            <com.example.donasi2.Edittextfragment.EditTextWithCaps
+                android:id="@+id/usernameregis"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/vectorperson"
+                android:drawablePadding="20dp"
+                android:hint="USERNAME" />
+
+            <EditText
+                android:id="@+id/emailregis"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="20dp"
+                android:hint="EMAIL" />
+
+            <com.example.donasi2.Edittextfragment.EditTextWithClear
+                android:id="@+id/passwordregis"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/vectorlock"
+                android:drawablePadding="20dp"
+                android:hint="PASSWORD"
+                android:inputType="textPassword" />
+
+            <com.example.donasi2.Edittextfragment.EditTextWithClear
+                android:id="@+id/ulangpasswordregis"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/vectorlock"
+                android:drawablePadding="20dp"
+                android:hint="ULANG PASSWORD"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/getwaves6"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/buttonregis"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstylekecil5"
+            android:drawableRight="@drawable/vectorsend"
+            android:text="REGISTER"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

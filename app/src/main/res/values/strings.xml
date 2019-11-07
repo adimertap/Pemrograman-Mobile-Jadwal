@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">CARIDEV</string>
+    <string name="formulir_pendaftaran">Formulir Pendaftaran</string>
+    <string name="nama_depan">nama depan</string>
+    <string name="nama_belakang">nama belakang</string>
+
+    <string-array name="list_Program_Studi">
+        <item>Pekerjaan</item>
+        <item>Siswa</item>
+        <item>Mahasiswa</item>
+        <item>Pegawai Swasta</item>
+        <item>Freelance</item>
+        <item>Pegawai Negeri Sipil</item>
+    </string-array>
+
+    <string-array name="list_pengajar">
+        <item>Pilih Pengajar</item>
+        <item>Pengajar 1</item>
+        <item>Pengajar 2</item>
+        <item>Pengajar 3</item>
+        <item>Pengajar 4</item>
+        <item>Pengajar 5</item>
+        <item>Pengajar 6</item>
+        <item>Pengajar 7</item>
+    </string-array>
+
+    <string-array name="list_Paket">
+        <item>Pilih Paket</item>
+        <item>Bimbingan harian (perjam)</item>
+        <item>Bimbingan mingguan</item>
+        <item>Bimbingan sebelum ujian</item>
+        <item>Bimbingan tugas</item>
+    </string-array>
+
+
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!--    <string name="login_shared_preference">com.example.donasi2.loginregister_login_shared_preference</string>-->
+<!--    <string name="login_status_shared_preference">com.example.donasi2.loginregister_login_status_shared_preference</string>-->
+<!--    <string name="username">trueline</string>-->
+<!--    -->
+
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nEnjoy your vacation in Bali</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+
+</resources>

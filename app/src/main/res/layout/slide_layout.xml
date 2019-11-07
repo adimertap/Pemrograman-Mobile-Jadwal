@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/slideimages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="140dp"
+        android:background="@drawable/timer" />
+
+    <TextView
+        android:id="@+id/slideheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/mreguler"
+        android:text="CARIDEVELOPER"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slidedesc"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:fontFamily="@font/mlight"
+        android:lineSpacingExtra="10sp"
+        android:padding="10dp"
+        android:paddingTop="20dp"
+        android:text="Dengan menyisihkan beberapa uang di dompet kamu, lebih sangat berarti jika kita
+        menggunakannya untuk hal hal yang akan membantu adik adik kita yang tidak dapat melanjuti sekolah mereka"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

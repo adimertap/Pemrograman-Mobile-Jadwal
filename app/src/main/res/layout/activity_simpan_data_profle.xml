@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    tools:context=".profile.SimpanDataProfileActivity">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="900dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/profil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/person1" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="@color/blue"
+            app:cardCornerRadius="15dp">
+
+            <TextView
+                android:id="@+id/formBiodata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="Biodata Anda"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewNama"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/fotoprofil"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    app:srcCompat="@drawable/profil13" />
+
+                <TextView
+                    android:id="@+id/textHasilNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="20dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorGrayDark"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/fotoprofil"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    app:srcCompat="@drawable/gambaremail" />
+
+                <TextView
+                    android:id="@+id/textHasilemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="20dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorGrayDark"
+                    android:textStyle="bold"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewNohp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/fotoprofil"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/gambarhp" />
+
+                <TextView
+                    android:id="@+id/textHasilnohp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="20dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorGrayDark"
+                    android:textStyle="bold"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewalamat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp" >
+
+                <ImageView
+                    android:id="@+id/fotoprofil"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    app:srcCompat="@drawable/ic_home_black_24dp" />
+
+                <TextView
+                    android:id="@+id/textHasilalamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="20dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorGrayDark"
+                    android:textStyle="bold"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewprodi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/fotoprofil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/gambarprodi" />
+
+                <TextView
+                    android:id="@+id/textHasilprodi"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorGrayDark"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewprodi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:id="@+id/fotoprofil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/datee" />
+
+                <TextView
+                    android:id="@+id/textHasiltanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/colorGrayDark"
+                    android:textStyle="bold" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardViewprodi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/fotoprofil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/gambaranswer" />
+
+            <TextView
+                android:id="@+id/pertanyaan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorGrayDark"
+                android:textStyle="bold"
+                android:text="Apakah anda puas ?"
+                android:textSize="17sp"
+                />
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/materialgreen"
+                app:cardCornerRadius="15dp">
+
+                <Button
+                    android:id="@+id/Puas"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:background="@color/materialgreen"
+                    android:text="YA"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/TidakPuas"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="200dp"
+                    android:background="@color/colorOrangeNew"
+                    android:text="TIDAK"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

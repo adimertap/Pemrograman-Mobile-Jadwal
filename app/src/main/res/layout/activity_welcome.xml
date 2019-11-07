@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundwelcomescreen"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:id="@+id/atas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="297dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/logosearch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="CARIDEVELOPER!"
+            android:textColor="@color/lightorange"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="364dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="10sp"
+            android:text="Platform android yang memudahkan anda mencari developer untuk mengerjakan project bisnis anda!"
+            android:textAlignment="center"
+            android:textColor="@color/lightorangedark"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bawah"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/vectorbawahwelcomescreen"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttondonasi"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/buttonstyle"
+            android:text="Get Started"
+            android:textSize="12dp"/>
+    </LinearLayout>
+</RelativeLayout>

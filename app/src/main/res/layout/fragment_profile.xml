@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    tools:context=".profile.ProfileFragment"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/yellow">
+
+        <ImageView
+            android:src="@drawable/backbutton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:layout_marginStart="16dp"
+            />
+        <ImageView
+            android:src="@drawable/searchbutton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:layout_marginEnd="16dp">
+        </ImageView>
+
+    </RelativeLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/person2" />
+
+        <TextView
+            android:id="@+id/tv_account_name"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adi Merta"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/mreguler"
+            android:textSize="21sp"/>
+
+        <TextView
+            android:id="@+id/textt"
+            android:layout_width="312dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/mlight"
+            android:text="PROFILE LENGKAP ANDA"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/namadata"
+            android:layout_width="350dp"
+            android:layout_height="25dp"
+            android:drawablePadding="20dp"
+            android:hint="NAMA"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/emaildata"
+            android:layout_width="350dp"
+            android:layout_height="25dp"
+            android:drawablePadding="20dp"
+            android:hint="EMAIL"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/lengkapidata"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonstylekecil"
+            android:drawableRight="@drawable/vectorsend"
+            android:text="Lengkapi Data"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/lihatdata"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonstylekecil"
+            android:drawableRight="@drawable/vectorsend"
+            android:text="Lihat Data"
+            android:textColor="#fff" />
+        <Button
+            android:id="@+id/buttonkeluar"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstylekecil5"
+            android:text="KELUAR"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>
